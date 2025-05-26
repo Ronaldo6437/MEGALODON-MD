@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~rIZQ0byC#UBDoVCAFZYARKILYn3NjHIfSFmOV_MdJP109FJUdBtw",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~LQx2TTTC#c2f4g8eAfDv8fZbgtX9xa9zDOfKL-N6VvUthA1smg5Y",
 // add your Session Id 
 SUDO_LIST: process.env.SUDO_LIST ? process.env.SUDO_LIST.split(',').map(n => n.trim()) : ["50934960331"],
 // example: 50911111111,50922222222
@@ -43,7 +43,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // choose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links without removing member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "31738351",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "35670509",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ᴅʏʙʏ ᴛᴇᴄʜ",
 // add bot owner name
