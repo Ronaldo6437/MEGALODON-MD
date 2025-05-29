@@ -69,7 +69,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // auto stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // false if want private mode
