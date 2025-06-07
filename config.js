@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~LQx2TTTC#c2f4g8eAfDv8fZbgtX9xa9zDOfKL-N6VvUthA1smg5Y",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~JQ5WxCxT#8RV9dbForBY7K9tWLVLxO9xa8JxNTKNk4Zeek-bQsVM",
 // add your Session Id 
 SUDO_LIST: process.env.SUDO_LIST ? process.env.SUDO_LIST.split(',').map(n => n.trim()) : ["50934960331"],
 // example: 50911111111,50922222222
